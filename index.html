@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto+Slab:300,400" rel="stylesheet">
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<title>Web Worx Design</title>
+
+</head>
+
+<body>
+	<div class="container-fluid" id="banner">
+		
+		<!-- The video -->
+		<video autoplay muted loop id="bannerVideo">
+  			<source src="banner-video.mp4" type="video/mp4">
+		</video>
+
+		<!-- Navigation Bar -->
+		<div class="topnav" id="myTopnav">
+			<a href="#" class="active">Home</a>
+  			<a href="#">Our Services</a>
+  			<a href="#">The Process</a>
+  			<a href="#">Portfolio</a>
+  			<a href="#">Pricing</a>
+  			<a href="#">Blog</a>
+  			<a href="#">Contact</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+		</div>
+	</div>
+
+	<div class="container" id="logoPanel">
+		<img src="SVGLogo.svg" class="img-responsive" id="logo" align="middle" alt="logo">
+	</div>
+	
+	<div class="container-fluid" id="firstPanel">
+		<div class="row">
+			<div class="col-xs-6">
+				<h1>Websites with Impact</h1>
+				<h4>Our custom websites are crafted so you stand out from your competitors.</h4>
+				<h4>Responsive design ensures your website looks good on desktop, tablet and mobile.</h4>
+				<a href="#"><button id="websitesLearn">Learn More</button></a>
+			</div>
+			<div class="col-xs-6"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="secondPanel">
+		<div id="leftPanel">
+			<h1>Manage your own Content</h1>
+			<h4>Our Content Management System means you can add, update and delete your own content. Its easy.</h4>
+			<h4>1. Login</h4>
+			<h4>2. Make changes</h4>
+			<h4>3. Save</h4>
+			<h4>And your done. No coding required.</h4>
+			<a href="#"><button id="cmsLearn">Learn More</button></a>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="thirdPanel">
+		<h1>Online Marketing</h1>
+		<img src="networks.jpg" id="arrows">
+		
+	</div>
+
+	<div class="container-fluid" id="contactPanel">
+		<img src="orange-pattern.jpg" id="backPattern">
+		<h1>Contact Us</h1>
+		<div class="container" id="form">
+		</div>
+		<h4>Tori Williams</h4>
+		<h4>Ph: 022 459 6183</h4>
+		<h4>Auckland, New Zealand</h4>
+	</div>
+
+	<img src="phone-background.jpg" id="back">
+
+	<footer>
+		<div class="row">
+			<div class="col-xs-6"></div>
+			<div class="col-xs-3">
+				<h6><a href="#">Services</a></h6>
+				<a href="#">Web Design</a>
+				<a href="#">Web Hosting</a>
+				<a href="#">Content Management</a>
+				<a href="#">Online Marketing</a>
+			</div>
+			<div class="col-xs-3">
+				
+
+			</div>
+		</div>
+
+		<p id="copyright">Website by Tori @ Web Worx Design. Copyright © 2019 Web Worx Design. All rights reserved.</p>
+	</footer>
+		
+		
+
+	<script>
+		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+    			x.className += " responsive";
+  			} else {
+    			x.className = "topnav";
+  			}
+		}
+	</script>
+
+
+</body>
+</html>
