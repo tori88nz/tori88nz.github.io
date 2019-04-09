@@ -14,7 +14,6 @@ body {
 	max-width: 100%;
 	height: 400vh;
 	text-align: justify;
-
 }
 
 h1 {
@@ -300,10 +299,11 @@ img#backPattern {
 
 img#back {
 	bottom: 0;
+	margin: 0;
 	position: fixed;
 	min-width: 100%;
 	max-width: 100%;
-	min-height: 80%;
+	min-height: 100%;
 
 }
 
