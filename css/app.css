@@ -290,6 +290,7 @@ img#backPattern {
 	top: 0;
 	left: 0;
 	right: 0;
+	overflow: hidden;
 }
 
 .container-fluid#contactPanel h1 {
