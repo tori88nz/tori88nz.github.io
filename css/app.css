@@ -47,6 +47,7 @@ h1 {
   left: 0;
   right: 0;
   min-width: 100%;
+  max-width: 100%;
   z-index: 100;
 }
 
@@ -338,7 +339,7 @@ footer p#copyright {
 	padding: 0;
 	padding-bottom: 2px;
 	left: 0;
-	right:  0;
+	right: 0;
 	bottom: 0;
 }
 
