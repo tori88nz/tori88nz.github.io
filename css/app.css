@@ -124,7 +124,7 @@ img#logo {
 
 .container-fluid#firstPanel h1 {
 	color: white;
-	font-size: 48px;
+	font-size: 50px;
 	font-family: 'roboto slab', serif;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -132,10 +132,12 @@ img#logo {
 }
 
 .container-fluid#firstPanel h4 {
-	padding-right: 20px;
-	padding-left: 20px;
+	font-size: 20px;
+	padding-left: 5%;
+	color: black;
 	padding-bottom: 10px;
-	max-width: 644px;
+	min-width: 100%;
+	max-width: 100%;
 	text-align: justify;
 }
 
@@ -265,8 +267,8 @@ img#arrows {
 
 .container-fluid#contactPanel {
 	font-family: 'roboto slab', serif;
-	min-height: 73vh;
-	max-height: 73vh
+	min-height: 77vh;
+	max-height: 77vh
 	color: rgba(255,255,255,1.0);
 	background-color: rgb(246, 139, 9);
 	position: relative;
@@ -345,15 +347,20 @@ footer p#copyright {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: absolute;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+	.topnav.responsive {position: relative;}
+  	.topnav.responsive a.icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  	}
+  	.topnav.responsive a {
+    	float: none;
+    	display: block;
+    	text-align: left;
+  	}
 } 
+
+@media screen and (max-width: 414px) {
+	.container-fluid#firstPanel h1 {font-size: 38px;}
+	.container-fluid#firstPanel h4 {font-size: 14px;}
+}
