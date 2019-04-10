@@ -261,6 +261,7 @@ img#arrows {
 	color: rgb(255, 255, 255);
 	background-color: rgba(44, 96, 164,1);
 	z-index: 5;
+	font-size: 50px;
 }
 
 
@@ -291,11 +292,13 @@ img#backPattern {
 .container-fluid#contactPanel h1 {
 	z-index: 5;
 	color: rgba(255,255,255,1);
+	font-size: 50px;
 }
 
 .container-fluid#contactPanel h4 {
 	z-index: 5;
 	color: rgba(255,255,255,1);
+	font-size: 20px;
 }
 
 img#back {
@@ -312,7 +315,7 @@ img#back {
 
 footer {
 	bottom: 0;
-	height: 20vh;
+	height: 25vh;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -320,11 +323,13 @@ footer {
 	background-color: purple;
 	position: relative;
 	color: white;
-	overflow: hidden;
+}
+
+footer a {
+	display: inline-flex;
 }
 
 footer p#copyright {
-	bottom: 0;
 	text-align: center;
 	font-size: 10px;
 	margin-bottom: 10px;
@@ -364,4 +369,6 @@ footer p#copyright {
 	.container-fluid#firstPanel h4 {font-size: 14px;}
 	.container-fluid#secondPanel h1{font-size: 38px;}
 	.container-fluid#secondPanel h4{font-size: 14px;}
+	.container-fluid#thirdPanel h1 {font-size: 38px;}
+	.container-fluid#thirdPanel h4 {font-size: 14px;}
 }
