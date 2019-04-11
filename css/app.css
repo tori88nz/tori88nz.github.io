@@ -144,7 +144,7 @@ img#logo {
 
 .container-fluid#firstPanel a button#websitesLearn {
 	font-family: 'roboto slab', serif;
-	margin-left: 20vw;
+	margin-left: 18vw;
 	margin-right: auto;
 	margin-top: 15px;
 	margin-bottom: 30px;
@@ -208,10 +208,8 @@ img#logo {
 
 .container-fluid#secondPanel a button#cmsLearn {
 	font-family: 'roboto slab', serif;
-	margin-left: 15vw;
-	margin-right: auto;
-	margin-bottom: 5px;
-	margin-top: 15px;
+	margin: 20px auto;
+	display: block;
 	padding: 8px 10px 8px 10px;
 	border-radius: 8px;
 	width: 100px;
