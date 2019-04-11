@@ -147,7 +147,6 @@ img#logo {
 	margin-left: 18vw;
 	margin-right: auto;
 	margin-top: 15px;
-	margin-bottom: 30px;
 	padding: 8px 10px 8px 10px;
 	border-radius: 8px;
 	width: 100px;
@@ -279,6 +278,45 @@ img#arrows {
 	overflow: hidden;
 }
 
+.container-fluid#contactPanel h2 {
+	font-family: 'roboto slab', serif;
+	display: block;
+	float: none;
+	line-height: 50px;
+	position: static;
+	z-index: auto;
+	margin-top: 30%;
+	color: white;
+	padding-left: 10vw;
+	max-width: 80vw;
+	font-size: 6vw;
+	font-weight: bold;
+	vertical-align: baseline;
+}
+
+.container-fluid#contactPanel h1 {
+	font-family: 'roboto slab', serif;
+	z-index: 5;
+	color: rgba(255,255,255,1);
+	font-size: 50px;
+}
+
+.container-fluid#contactPanel h3 {
+	margin-top: 50px;
+	position: absolute;
+	vertical-align: baseline;
+}
+
+.container-fluid#contactPanel h4 {
+	font-family: 'roboto slab', serif;
+	z-index: 5;
+	color: rgba(255,255,255,1);
+	font-size: 20px;
+	position: absolute;
+	vertical-align: baseline;
+	padding-top: 100px;
+}
+
 img#backPattern {
 	opacity: 0.3;
 	min-width: 100%;
@@ -290,18 +328,6 @@ img#backPattern {
 	left: 0;
 	right: 0;
 	overflow: hidden;
-}
-
-.container-fluid#contactPanel h1 {
-	z-index: 5;
-	color: rgba(255,255,255,1);
-	font-size: 50px;
-}
-
-.container-fluid#contactPanel h4 {
-	z-index: 5;
-	color: rgba(255,255,255,1);
-	font-size: 20px;
 }
 
 img#back {
@@ -345,6 +371,17 @@ footer p#copyright {
 	bottom: 0;
 }
 
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -371,9 +408,9 @@ footer p#copyright {
 
 @media screen and (max-width: 414px) {
 	.container-fluid#firstPanel h1 {font-size: 38px;}
-	.container-fluid#firstPanel h4 {font-size: 14px;}
+	.container-fluid#firstPanel h4 {font-size: 16px;}
 	.container-fluid#secondPanel h1{font-size: 38px;}
-	.container-fluid#secondPanel h4{font-size: 14px;}
+	.container-fluid#secondPanel h4{font-size: 16px;}
 	.container-fluid#thirdPanel h1 {font-size: 38px;}
-	.container-fluid#thirdPanel h4 {font-size: 14px;}
+	.container-fluid#thirdPanel h4 {font-size: 16px;}
 }
