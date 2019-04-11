@@ -285,11 +285,11 @@ img#arrows {
 	line-height: 50px;
 	position: static;
 	z-index: auto;
-	margin-top: 30%;
+	margin-top: 10%;
 	color: white;
 	padding-left: 10vw;
 	max-width: 80vw;
-	font-size: 6vw;
+	font-size: 40px;
 	font-weight: bold;
 	vertical-align: baseline;
 }
